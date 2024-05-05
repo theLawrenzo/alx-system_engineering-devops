@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This scirpt is displaying the content of a directory in a list format
+
+for name in 'ls'
+do
+    

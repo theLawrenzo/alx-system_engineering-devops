@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script that prints the pid of the process executing the script
+
+pidof $0

@@ -5,10 +5,10 @@ if ARGV.empty?
   exit
 end
 
+word = ARGV[0];
+
 pattern = /^hb?t+n/i
 
-word = ARGV[0]
-
 if word =~ pattern
-  exit
+  puts word
 end

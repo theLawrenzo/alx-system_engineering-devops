@@ -5,10 +5,10 @@ if ARGV.empty?
   exit
 end
 
-word = ARGV[0]
+word = ARGV[0];
 
-pattern = /(hb)t*{2,5}n$/s
+pattern = /hbt{2,5}n/i
 
 if word =~ pattern
-  exit
+  puts word;
 end

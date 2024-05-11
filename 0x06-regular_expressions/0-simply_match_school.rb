@@ -8,7 +8,7 @@ end
 text = ARGV[0]
 
 # Regular expression pattern to match "School"
-pattern = /School/s
+pattern = /(Scho+l)*/i
 
 # Check if the word matches the pattern
 if text =~ pattern

@@ -16,5 +16,5 @@ pattern = /^h[a-zA-Z0-9]{1}n$/i
 
 # Use pattern to check cmd argument if they're a match
 if word =~ pattern
-  print word
+  puts word
 end

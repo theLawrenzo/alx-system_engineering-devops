@@ -11,10 +11,12 @@ regex = /([A-Z]+ | "[A-Z ]+"")/i
 
 matches = word.scan(regex);
 
-if matches.empty?
-  exit
-else
-  matches.each do |match|
-    puts match
-  end
-end
+
+#if matches.empty?
+#  exit
+#else
+#  matches.each do |match|
+#    print match
+#  end
+#end
+#puts ""

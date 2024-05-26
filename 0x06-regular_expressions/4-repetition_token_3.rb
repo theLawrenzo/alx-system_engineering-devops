@@ -11,7 +11,7 @@ end
 word = ARGV[0]
 
 # Regex pattern to search for word
-pattern = /hbt?{1,4}n/i
+pattern = /hb?t*n/i
 
 # Compare Regex with word if they match tne output word
 if word =~ pattern

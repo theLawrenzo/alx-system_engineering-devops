@@ -11,7 +11,9 @@ regex = /([A-Z]+ | "[A-Z ]+"")/i
 
 matches = word.scan(regex);
 
-
+if matches
+  puts matches
+end
 #if matches.empty?
 #  exit
 #else

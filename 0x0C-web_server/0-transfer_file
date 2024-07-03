@@ -17,3 +17,12 @@ PATH_TO_SSH_KEY=$4
 # disable strict hostkey checking when using scp
 
 scp -o "StrictHostKeyChecking=no" -i "$PATH_TO_SSH_KEY" "$PATH_TO_FILES" "$USERNAME@IP:~/"
+
+# Checking for success or failure
+
+if [ $? -eq 0 ]
+then
+	echo "FILE TRANSFER SUCCESSFUL"
+else
+	echo "FLE TRANSFER FAILED"
+fi

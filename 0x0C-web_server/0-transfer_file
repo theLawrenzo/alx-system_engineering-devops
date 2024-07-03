@@ -16,7 +16,7 @@ PATH_TO_SSH_KEY=$4
 
 # disable strict hostkey checking when using scp
 
-scp -o "StrictHostKeyChecking no" -i "$PATH_TO_SSH_KEY" "$PATH_TO_FILES" "$USERNAME@IP:~/"
+scp -o "StrictHostKeyChecking no" "$PATH_TO_FILE" -i "$PATH_TO_SSH_KEY" "$USERNAME@$IP:~/"
 
 # Checking for success or failure
 

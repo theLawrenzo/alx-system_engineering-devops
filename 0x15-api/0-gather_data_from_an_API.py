@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-# This script is used to read information from an API
-'''
-Read employee data from an API route
-'''
+"""Accessing a REST API for todo lists of employees"""
 
 import requests
 import sys

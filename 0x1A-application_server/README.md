@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 Curriculum
@@ -403,3 +404,12 @@ Repo:
 
 Copyright © 2024 ALX, All rights reserved.
 
+=======
+ALX SE PROJECT -  0x1A. Application server
+
+TASKS:
+
+0. Set up development with python
+- Serving content of the AirBnB_clone_v2 (that is our
+flask application clone) on our server
+>>>>>>> 93e664a7fdcc6676deeca2e5da6d11b6ecd796ce
